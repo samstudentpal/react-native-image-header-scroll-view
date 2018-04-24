@@ -1,0 +1,54 @@
+{
+  "name": "react-native-image-header-scroll-view",
+  "version": "0.6.2",
+  "description": "ScrollView with an image in header which become a navbar",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint src/*.js",
+    "test": "npm run lint && flow",
+    "prettify": "prettier --single-quote --trailing-comma es5 --print-width 100 --write src/**.js"
+  },
+  "files": ["README.md", "LICENCE", "src", "readmeAssets"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bamlab/react-native-image-header-scroll-view.git"
+  },
+  "keywords": [
+    "React-native",
+    "ScrollView",
+    "animation",
+    "navbar",
+    "react-component",
+    "ios",
+    "android"
+  ],
+  "author": "Nhacsam <nicolas@djambazian.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bamlab/react-native-image-header-scroll-view/issues"
+  },
+  "homepage": "https://github.com/bamlab/react-native-image-header-scroll-view#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-preset-react-native": "1.9.1",
+    "eslint": "^3.19.0",
+    "eslint-config-prettier": "1.7.0",
+    "eslint-config-react-app": "^0.6.2",
+    "eslint-plugin-flowtype": "^2.32.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-prettier": "2.1.2",
+    "eslint-plugin-react": "^6.10.0",
+    "flow-bin": "^0.53.0",
+    "prettier": "^1.5.3",
+    "react": "16.0.0-beta.5",
+    "react-native": "0.49.5"
+  },
+  "peerDependencies": {
+    "react": ">=15.3.1",
+    "react-native": ">=0.20.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
